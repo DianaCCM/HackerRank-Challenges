@@ -4,9 +4,7 @@
 
 Given the employee numbers and the times at which their shifts end in a 2-D array where each element is [employee number, leave time], find the ID of the nurse with the longest single shift.
 
-Note: If the same employee has two contiguous shifts,
-
-they are considered to be different.
+Note: If the same employee has two contiguous shifts, they are considered to be different.
 
 Example
 
