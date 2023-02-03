@@ -14,7 +14,7 @@
     "save": "^2.3.1"
   },
   "scripts": {
-    "start": "cross-env HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
+    "start":  "react-scripts --openssl-legacy-provider start",
     "pretest": "npm install",
     "prestart": "npm install",
     "test": "cross-env CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
