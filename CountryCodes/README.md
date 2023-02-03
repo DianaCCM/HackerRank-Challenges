@@ -1,4 +1,4 @@
-# JavaScript: Country Codes (HackerRank challenge)
+# JavaScript: Country Codes
 
 
 In this challenge, the given REST API contains information about countries.
