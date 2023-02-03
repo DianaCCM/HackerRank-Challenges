@@ -4,9 +4,7 @@
 
 Given the employee numbers and the times at which their shifts end in a 2-D array where each element is [employee number, leave time], find the ID of the nurse with the longest single shift.
 
-Note: If the same employee has two contiguous shifts,
-
-they are considered to be different.
+Note: If the same employee has two contiguous shifts, they are considered to be different.
 
 Example
 
@@ -47,11 +45,12 @@ The first line contains an integer, n, the number of elements in leaveTimes.
 The second line contains the integer 2, the number of columns in each leaveTimes[i].
 
 Each line i of the n subsequent lines (where 0 ≤ i < n) contains two space-separated integers, leaveTimes[i][0] and leaveTimes[i][1].
-Sample Case 0
-Sample Case 1
+
+Sample Case
 
 Sample Input For Custom Testing
 
+```bash
 STDIN    Function
 -----    --------
 5     →  leaveTimes[] size n = 5
@@ -61,10 +60,13 @@ STDIN    Function
 4 5
 5 6
 4 10
+```
 
 Sample Output
 
-e
+```bash
+  e
+```
 
 Explanation
 
@@ -74,5 +76,7 @@ The time slots are as follows:
     Employee 0 works from t=1 to t=3, i.e, for 3-1=2 unit of time.
     Employee 4 works from t=3 to t=5, i.e, for 5-2=4 units of time.
     Employee 5 works from t=5 to t=6, i.e, for 6-5=1 units of time.
-    Employee 4 works from t=6 to t=10, i.e, for 10-6=4 units of time. The longest time slot is of 4 units of time, by employee 4, who has Id = 'e'. Note that the first two slots by employee 0 are to be considered two different slots.
+    Employee 4 works from t=6 to t=10, i.e, for 10-6=4 units of time. 
+    The longest time slot is of 4 units of time, by employee 4, who has Id = 'e'. 
+    Note that the first two slots by employee 0 are to be considered two different slots.
 
