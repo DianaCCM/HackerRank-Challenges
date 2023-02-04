@@ -1,6 +1,6 @@
 const https = require("https");
 
-const makeRequest = (pageNumber) => {
+const requestData = (pageNumber) => {
   return new Promise((resolve, reject) => {
     let url = `https://jsonmock.hackerrank.com/api/countries?page=${pageNumber}`;
     https.get(url, (response) => {
@@ -24,7 +24,7 @@ async function getCountryName(code) {
   let pageNumber = 1;
   let country = null;
   while (country === null) {
-    let data = await makeRequest(pageNumber);
+    let data = await requestData(pageNumber);
     let countries = JSON.parse(data).data;
     let total = JSON.parse(data).total_pages;
     let found = countries.find((item) => item.alpha2Code === code);
