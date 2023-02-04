@@ -6,9 +6,9 @@ Given a year and integer _k_, denoting the minimum number of matches we are inte
 
 The given API uses pagination to return the data divided into pages. Fetching the whole data available on the API requires multiple requests.
 
-To get a single page of matches played in UEFA Champions League in the given year, perform HTTP GET request to: **https://jsonmock.hackerrank.com/api/football_matches?competition=UEFA%20Champions%20League&year=year&page=pageNumber** where _year_ denotes the year of the match and _pageNumber_ is an integer denoting the page of the results we are requesting.
+To get a single page of matches played in UEFA Champions League in the given year, perform HTTP GET request to: **https://jsonmock.hackerrank.com/api/football_matches?competition=UEFA%20Champions%20League&year=<*year*>&page=<*pageNumber*>** where _year_ denotes the year of the match and _pageNumber_ is an integer denoting the page of the results we are requesting.
 
-For example, a GET request to https://jsonmock.hackerrank.com/api/footballmatches?competition-UEFA%20Champions%2OLeague&year=2011&page=2 will return page 2 of the collection of matches played in the UEFA Champions League in the year 2011. Pages are numbered from 1, so in order to access the first page, you need to ask for page number 1.
+For example, a GET request to https://jsonmock.hackerrank.com/api/football_matches?competition=UEFA%20Champions%20League&year=2011&page=2 will return page 2 of the collection of matches played in the UEFA Champions League in the year 2011. Pages are numbered from 1, so in order to access the first page, you need to ask for page number 1.
 
 The response to such request is a JSON with the following 5 fields:
 
@@ -57,7 +57,7 @@ In the second line, there is a single integer, k
 STDIN    Function
 -----    --------
 2015  →  year = 2015
-13    →  k = 6
+13    →  k = 13
 ```
 
 **Sample Output**
@@ -67,6 +67,7 @@ Real Madrid
 ```
 
 **Explanation**
+
 In this case, we are interested in teams that played in the UEFA Champions League in the year 2015 and played in at (...)
 
 
@@ -76,7 +77,7 @@ In this case, we are interested in teams that played in the UEFA Champions Leagu
 ```bash
 STDIN    Function
 -----    --------
-2012  →  year = 2015
+2012  →  year = 2012
 6     →  k = 6
 ```
 
@@ -96,7 +97,9 @@ Bayern Munich
 
 Borussia Dortmund
 
-CFR Cluj Celtic
+CFR Cluj 
+
+Celtic
 
 Chelsea
 
@@ -120,9 +123,27 @@ Manchester United
 
 Montpellier HSC
 
-Boardsjael Land Olympiacos
+Nordsjaelland
+
+Olympiacos
 
 Paris Saint-Germain
 
-(...)
+RSC Anderlecht
+
+Real Madrid
+
+SL Benfica
+
+Schalke 04
+
+Shakhtar Donetsk
+
+Spartak Moskva
+
+Sporting Braga
+
+Valencia CF
+
+Zenit St. Petersburg
 ```
