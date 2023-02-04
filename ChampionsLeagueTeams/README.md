@@ -77,7 +77,7 @@ In this case, we are interested in teams that played in the UEFA Champions Leagu
 ```bash
 STDIN    Function
 -----    --------
-2012  →  year = 2015
+2012  →  year = 2012
 6     →  k = 6
 ```
 
