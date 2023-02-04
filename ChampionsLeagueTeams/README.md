@@ -97,7 +97,9 @@ Bayern Munich
 
 Borussia Dortmund
 
-CFR Cluj Celtic
+CFR Cluj 
+
+Celtic
 
 Chelsea
 
@@ -121,9 +123,27 @@ Manchester United
 
 Montpellier HSC
 
-Boardsjael Land Olympiacos
+Nordsjaelland
+
+Olympiacos
 
 Paris Saint-Germain
 
-(...)
+RSC Anderlecht
+
+Real Madrid
+
+SL Benfica
+
+Schalke 04
+
+Shakhtar Donetsk
+
+Spartak Moskva
+
+Sporting Braga
+
+Valencia CF
+
+Zenit St. Petersburg
 ```
