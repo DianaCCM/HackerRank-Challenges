@@ -57,7 +57,7 @@ In the second line, there is a single integer, k
 STDIN    Function
 -----    --------
 2015  →  year = 2015
-13    →  k = 6
+13    →  k = 13
 ```
 
 **Sample Output**
