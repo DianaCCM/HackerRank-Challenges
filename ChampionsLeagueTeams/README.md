@@ -67,9 +67,8 @@ Real Madrid
 ```
 
 **Explanation**
-```bash
 In this case, we are interested in teams that played in the UEFA Champions League in the year 2015 and played in at (...)
-```
+
 
 ▾ Sample Case 1
 
